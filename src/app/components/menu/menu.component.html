@@ -1,0 +1,7 @@
+<h1>Level {{gameService.level + 1}}</h1>
+<div>
+  <button (click)="previousLevel()" *ngIf='gameService.level > 0'>previous level</button>
+  <button (click)="reset()" >reset level</button>
+  <button (click)="gameService.solve()">Solve</button>
+  <button (click)="nextLevel()" *ngIf='gameService.level + 1 < gameService.getNumberOfLevels()'>next level</button>
+</div>

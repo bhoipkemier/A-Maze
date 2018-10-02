@@ -1,0 +1,11 @@
+<table cellpadding="0" cellspacing="" *ngIf="gameService.curState">
+  <body>
+    <tr *ngFor="let line of board.board; let rowIndx = index">
+      <td class="space {{ space }} {{ space === ' ' ? 'block' : ''}} {{ hasSwitchWall(rowIndx, colIndx)? 'switchWall': '' }}" *ngFor="let space of line.split(''); let colIndx = index">
+        <div>{{ getCharacter(rowIndx, colIndx) }}</div>
+      </td>
+    </tr>
+  </body>
+</table>
+
+<h1 *ngIf="!gameService.curState">You Win!!!</h1>

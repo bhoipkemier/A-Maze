@@ -1,0 +1,35 @@
+table{border-spacing:0}
+td div { font-size: 36px }
+
+.space div{ 
+  width:50px;
+  height: 50px;
+}
+.space {
+  border: 2px solid transparent;
+}
+.block {
+  background-color: black;
+  color: red;
+  text-align: center;
+}
+
+.┌, .┬, .─, .┐ {
+  border-top-color: black;
+}
+
+td.switchWall {
+  border-left-color: red;
+}
+
+.│, .┘, .┤, .┐ {
+  border-right-color: black;
+}
+
+.└, .┘, .┴, .─ {
+  border-bottom-color: black;
+}
+
+.│, .└, .├, .┌ {
+  border-left-color: black;
+}

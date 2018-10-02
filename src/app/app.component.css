@@ -1,0 +1,13 @@
+.frame {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.menu {
+  height: 100%
+}
