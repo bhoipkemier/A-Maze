@@ -10,7 +10,7 @@ td div { font-size: 36px }
 }
 .block {
   background-color: black;
-  color: red;
+  color: lightblue;
   text-align: center;
 }
 
@@ -19,7 +19,7 @@ td div { font-size: 36px }
 }
 
 td.switchWall {
-  border-left-color: red;
+  border-left-color: blue;
 }
 
 .│, .┘, .┤, .┐ {
