@@ -1,4 +1,4 @@
-<div class="frame">
+<div class="frame" *ngIf="!usePhaser">
   <div class="main">
     <app-board></app-board>
   </div>
@@ -7,3 +7,4 @@
   </div>
 </div>
 
+<app-game-board *ngIf="usePhaser"></app-game-board>

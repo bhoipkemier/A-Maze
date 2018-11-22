@@ -6,12 +6,14 @@ import { GameService } from './services/game.service';
 import { LevelGeneratorService } from './services/level-generator.service';
 import { BoardComponent } from './components/board/board.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { GameBoardComponent } from './components/game-board/game-board.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BoardComponent,
-    MenuComponent
+    MenuComponent,
+    GameBoardComponent
   ],
   imports: [
     BrowserModule
